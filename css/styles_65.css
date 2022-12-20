@@ -226,10 +226,10 @@ Navbar
   margin: 0 auto;
 }
 .nav-center .logo {
-  min-width: 4rem;
   height: 4rem;
   padding-top: 0.5rem;
   padding-left: 0.5em;
+  padding-right: 15rem;
 }
 .nav-links {
   display: none;
