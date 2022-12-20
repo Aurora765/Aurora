@@ -22,7 +22,7 @@ Navbar
         margin: 0 auto;
 
         .logo {
-            height: 5rem;
+            height: 4rem;
             padding-top: 0.5rem;
             padding-left: 0.5em;
         }
@@ -267,6 +267,9 @@ Services
 /* bg-grey in globals */
 .bg-grey{
     background-color: var(--clr-grey-10);
+    .underline{
+        margin-bottom: 1rem;
+    }
 .services-center {
     .service {
       background: var(--clr-white);
@@ -279,7 +282,8 @@ Services
         background: var(--clr-primary-5);
         color: var(--clr-white);
         .underline {
-          background: var(--clr-white);
+          background: var(--clr-primary-1);
+          margin-bottom: 1rem;
         }
         p {
           color: var(--clr-white);
@@ -320,6 +324,8 @@ project
 */
 
 .projects {
+    padding: 5rem 0;
+
     &-text {
         width: 80vw;
         margin: 0 auto;//對中
@@ -327,7 +333,7 @@ project
     }
 
     .underline {
-        margin-bottom: 1.5rem;
+        margin-bottom: 2rem;
     }
 
     .project {        
