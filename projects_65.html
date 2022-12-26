@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>John Doe || Projects</title>
+    <title>Aurora || Projects</title>
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
@@ -17,10 +17,73 @@
 
   <body>
     <!-- navbar -->
-    <nav class="nav" id="nav"></nav>
+    <nav class="nav" id="nav">
+      <div class="nav-center">
+        <!-- nav header -->
+        <div class="nav-header">
+          <img src="./images/logo3.png" class="logo" alt="logo" />
+        </div>
+        <!-- nav-links -->
+        <ul class="nav-links">
+          <li>
+            <a href="index.html">home</a>
+          </li>
+          <li>
+            <a href="about_65.html">about</a>
+          </li>
+          <li>
+            <a href="projects_65.html">projects</a>
+          </li>
+          <li>
+            <a href="contact_65.html">contact</a>
+          </li>
+        </ul>
+        <button class="nav-btn" id="nav-btn">
+          <i class="fas fa-bars"></i>
+        </button>
+      </div>
+    </nav>
     <!-- end of navbar -->
-    <!-- sidebar -->
 
+    <!-- sidebar -->
+    <aside class="sidebar" id="sidebar">
+      <div>
+        <button class="close-btn" id="close-btn">
+          <i class="fas fa-times"></i>
+        </button>
+        <ul class="sidebar-links">
+          <li>
+            <a href="index.html">home</a>
+          </li>
+          <li>
+            <a href="about.html">about</a>
+          </li>
+          <li>
+            <a href="projects.html">projects</a>
+          </li>
+          <li>
+            <a href="contact.html">contact</a>
+          </li>
+        </ul>
+        <ul class="social-icons">
+          <a href="https://www.instagram.com/">
+            <i class="fa-brands fa-instagram"></i>
+          </a>
+          <a href="https://twitter.com/?lang=zh-Hant">
+            <i class="fa-brands fa-twitter"></i>
+          </a>
+          <a href="https://zh-tw.facebook.com/">
+            <i class="fa-brands fa-facebook"></i>
+          </a>
+          <a href="https://discord.com/">
+            <i class="fa-brands fa-discord"></i>
+          </a>
+          <a href="https://www.youtube.com/">
+            <i class="fa-brands fa-youtube"></i>
+          </a>
+        </ul>
+      </div>
+    </aside>
     <!-- end of sidebar -->
     <header class="projects-hero">
       <!-- section title -->
@@ -29,18 +92,82 @@
     </header>
     <section class="section">
       <div class="section-center projects-page-center">
-        <!-- single project -->
-
-        <!-- end of single project -->
+<!-- projects-->
+<section class="projects">
+  <div class="section-title">
+    <h2>latest works</h2>
+    <div class="underline"></div>
+    <p class="projects-text">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+      Iure laudantium pariatur corporis molestiae unde quibusdam nulla libero deserunt neque dolores, recusandae doloremque labore magni,
+       veniam incidunt omnis illum cum cumque.
+    </p>
+  </div>
+  <div class="section-center projects-center">
+  <a href="projects_65.html" class="project-1">
+    <article class="project">
+      <img src="./images/duck.jpg"  class="project-img" alt="single project">
+      <div class="project-info">
+        <h4>南瓜</h4>
+        <p>難呱呱</p>
+      </div>
+  </article>
+  </a>
+  <a href="projects_65.html" class="project-2">
+  <article class="project">
+    <img src="./images/pika.jpg"  class="project-img" alt="single project">
+    <div class="project-info">
+      <h4>皮卡乒乓乒乓乒乓 丘丘丘丘丘 兵</h4>
+      <p></p>
+    </div>
+</article>
+  </a>
+  <a href="projects_65.html" class="project-3">
+<article class="project">
+  <img src="./images/2.jpg"  class="project-img" alt="single project">
+  <div class="project-info">
+    <h4>還是南瓜</h4>
+    <p>難呱</p>
+  </div>
+</article>
+  </a>
+  <a href="projects_65.html" class="project-4">
+<article class="project">
+<img src="./images/neko.jpg"  class="project-img" alt="single project">
+<div class="project-info">
+  <h4>neko</h4>
+  <p>clinet name</p>
+</div>
+</article>
+  </a>     
+</div>
+</section>
+<!-- end of projects -->
       </div>
     </section>
 
     <!-- footer -->
     <footer class="footer">
-      <ul class="social-icons"></ul>
-
-      <p>&copy; <span id="date"></span> John Doe. All rights reserved.</p>
-    </footer>
+      <!-- social-icon -->
+      <ul class="social-icons">
+        <a href="https://www.instagram.com/" class="social-icon">
+          <i class="fa-brands fa-instagram"></i>
+        </a>
+        <a href="https://twitter.com/?lang=zh-Hant" class="social-icon">
+          <i class="fa-brands fa-twitter"></i>
+        </a>
+        <a href="https://zh-tw.facebook.com/" class="social-icon">
+          <i class="fa-brands fa-facebook"></i>
+        </a>
+        <a href="https://discord.com/" class="social-icon">
+          <i class="fa-brands fa-discord"></i>
+        </a>
+        <a href="https://www.youtube.com/" class="social-icon">
+          <i class="fa-brands fa-youtube"></i>
+        </a>
+      </ul>
+  <p>&copy; <span id="date"></span> John Doe. All rights reserved.</p>
+</footer>
     <script src="./js/script_65.js"></script>
   </body>
 </html>
