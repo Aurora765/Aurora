@@ -7,3 +7,12 @@
 ![](log11.png)
 ![](log13.png)
 ![](log16.png)
+
+### w017: 學習心得
+![](yeah.png)
+
+### w017: work
+![](duck.png)
+
+### w017: resume
+![](about.png)
